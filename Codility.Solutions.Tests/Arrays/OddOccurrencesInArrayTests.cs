@@ -8,7 +8,7 @@ namespace Codility.Solutions.Tests.Arrays
         [Theory]
         [InlineData(new int[] { 9, 3, 9, 3, 9, 7, 9 }, 7)]
 
-        public void OddOccurrencesInArray_OK(int[] A, int expected)
+        public void Solution_OK(int[] A, int expected)
         {
             var result = OddOccurrencesInArray.Solution(A);
             Assert.Equal(expected, result);

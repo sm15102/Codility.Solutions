@@ -8,7 +8,7 @@ namespace Codility.Solutions.Tests.TimeComplexity
         [Theory]
         [InlineData(new int[] { 3, 1, 2, 4, 3 }, 1)]
 
-        public void FrogJmp_OK(int[] A, int expected)
+        public void Solution_OK(int[] A, int expected)
         {
             var result = TapeEquilibrium.Solution(A);
             Assert.Equal(expected, result);

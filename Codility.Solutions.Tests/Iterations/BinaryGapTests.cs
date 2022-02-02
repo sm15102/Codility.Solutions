@@ -13,7 +13,7 @@ namespace Codility.Solutions.Tests.Iterations
         [InlineData(32, 0)]
         [InlineData(1041, 5)]
 
-        public void BinaryGap_OK(int N, int expected)
+        public void Solution_OK(int N, int expected)
         {
             var result = BinaryGap.Solution(N);
             Assert.Equal(expected, result);

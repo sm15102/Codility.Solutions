@@ -8,7 +8,7 @@ namespace Codility.Solutions.Tests.TimeComplexity
         [Theory]
         [InlineData(new int[] { 2, 3, 1, 5 }, 4)]
 
-        public void FrogJmp_OK(int[] A, int expected)
+        public void Solution_OK(int[] A, int expected)
         {
             var result = PermMissingElem.Solution(A);
             Assert.Equal(expected, result);
